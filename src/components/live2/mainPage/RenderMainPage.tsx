@@ -8,7 +8,7 @@ export type RenderMainPageProps = {
 ["frame1"]?: ElementProps<"div">;
 ["frame7"]?: ElementProps<"div">;
 ["bannerEmojiGenerator"]?: ElementProps<"span">;
-["theServiceAllowsYouToGenerateAnEmojiBannerImageIdealToPrettifyYourTasksInNotionChangeTheEmojiByClickingOnIt"]?: ElementProps<"span">;
+["theServiceAllowsYouToGenerateAnEmojiBannerImageIdealToPrettifyYourTasksInNotion"]?: ElementProps<"span">;
 ["frame6"]?: ElementProps<"div">;
 ["frame4"]?: ElementProps<"div">;
 ["ellipse1"]?: ElementProps<"svg">;
@@ -32,7 +32,7 @@ export const RenderMainPage = function (props: RenderMainPageProps) {
         <div className={cls(frames,"mainPage", `gap-[30px] flex-row w-fit justify-center items-center overflow-hidden relative bg-[#e9ecf1] opacity-100 p-[85px] flex`)}>
   <div className={cls(frames,"frame1", `gap-[23px] flex-col items-center shrink-0 overflow-hidden relative border shadow-[0px_4px_4px_rgba(0,0,0,0.05000000074505806)] bg-white opacity-100 pt-[25px] pb-[17px] px-[21px] rounded-xl border-[#ebebeb] flex`)}>
     <div className={cls(frames,"frame7", `gap-2 flex-col shrink-0 self-stretch object-cover relative opacity-100 p-0 flex`)}><span className={cls(frames,"bannerEmojiGenerator", `font-['Roobert'] text-lg font-bold text-[#2f3136] text-left flex flex-row justify-start shrink-0 relative`)}>Banner emoji generator</span>
-      <span className={cls(frames,"theServiceAllowsYouToGenerateAnEmojiBannerImageIdealToPrettifyYourTasksInNotionChangeTheEmojiByClickingOnIt", `font-['Inter'] text-sm font-medium text-[#40454d] text-left flex flex-row justify-start w-[283px] shrink-0 relative`)}>The service allows you to generate an emoji banner image. Ideal to prettify your tasks in Notion. Change the emoji by clicking on it.</span>
+      <span className={cls(frames,"theServiceAllowsYouToGenerateAnEmojiBannerImageIdealToPrettifyYourTasksInNotion", `font-['Inter'] text-sm font-medium text-[#40454d] text-left flex flex-row justify-start w-[283px] shrink-0 relative`)}>The service allows you to generate an emoji banner image. Ideal to prettify your tasks in Notion.</span>
     </div>
     <div className={cls(frames,"frame6", `gap-[15px] flex-col items-stretch shrink-0 relative opacity-100 p-0 flex`)}>
       <div className={cls(frames,"frame4", `h-[132px] shrink-0 self-stretch object-cover overflow-hidden relative bg-[#e9ecf1] opacity-100 p-0`)}><svg width={64} height={64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">

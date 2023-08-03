@@ -10,7 +10,6 @@ export const MainPage = function (props: MainPageProps) {
     return (<RenderMainPage
         {...props}
         frames={merge(props.frames, {
-            // edit frames here
         })}
     />);
 }

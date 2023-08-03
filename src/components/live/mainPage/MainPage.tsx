@@ -1,4 +1,5 @@
 
+import React from 'react'
 import { merge } from '../lib';
 import { RenderMainPage, RenderMainPageProps } from './RenderMainPage';
 

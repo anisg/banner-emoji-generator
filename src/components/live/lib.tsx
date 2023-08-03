@@ -1,4 +1,6 @@
 import React from 'react'
+import { twMerge } from 'tailwind-merge'
+
 
 export type ElementProps<T extends keyof JSX.IntrinsicElements = "div"> = JSX.IntrinsicElements[T];
 
@@ -6,12 +8,7 @@ export function cls(framesTree: Record<string, any> | undefined, name: string, c
   // later: use tailwind-merge
   if (framesTree?.[name]?.className) {
     return (
-      framesTree[name]?.className
-        ?.split(" ")
-        ?.map((s: string) => `!${s}`)
-        .join(" ") +
-      " " +
-      className
+      twMerge(framesTree[name]?.className, className)
     );
   }
   return className;

@@ -14,10 +14,10 @@ export type RenderMainPageProps = {
 ["ellipse1"]?: ElementProps<"svg">;
 ["iconicon"]?: ElementProps<"svg">;
 ["frame5"]?: ElementProps<"div">;
-["frame3"]?: ElementProps<"div">;
+["frame3Select"]?: ElementProps<"div">;
 ["notionCoverFormat"]?: ElementProps<"span">;
 ["vector1"]?: ElementProps<"svg">;
-["frame2"]?: ElementProps<"div">;
+["frame2Button"]?: ElementProps<"div">;
 ["downloadImage"]?: ElementProps<"span">;
 ["badgeLiveDesign"]?: ElementProps<"div">;
 ["madeOn"]?: ElementProps<"span">;
@@ -44,12 +44,12 @@ export const RenderMainPage = function (props: RenderMainPageProps) {
           <path d="M27 13C27 14.6569 25.6569 16 24 16C22.3431 16 21 14.6569 21 13C21 11.3431 22.3431 10 24 10C25.6569 10 27 11.3431 27 13Z" fill="#949EAE" />
         </svg></div>
       <div className={cls(frames,"frame5", `gap-[30px] flex-row w-fit items-center shrink-0 relative opacity-100 p-0 flex`)}>
-        <div className={cls(frames,"frame3", `gap-[5px] flex-row w-fit items-center shrink-0 relative opacity-100 p-0 flex`)}><span className={cls(frames,"notionCoverFormat", `font-['Inter'] text-[13px] font-medium text-[#40454d] text-left flex flex-row justify-start shrink-0 relative`)}>Notion cover format</span>
+        <div className={cls(frames,"frame3Select", `gap-[5px] flex-row w-fit items-center shrink-0 relative opacity-100 p-0 flex`)}><span className={cls(frames,"notionCoverFormat", `font-['Inter'] text-[13px] font-medium text-[#40454d] text-left flex flex-row justify-start shrink-0 relative`)}>Notion cover format</span>
           <svg width={11} height={7} viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 0.75L5.5 5.25L10 0.75" stroke="#AFAFAD" strokeWidth="1.5" />
           </svg>
         </div>
-        <div className={cls(frames,"frame2", `gap-2.5 flex-row w-fit items-start shrink-0 overflow-hidden relative border bg-[#4281db] opacity-100 px-[11px] py-[5px] rounded-[3px] border-[#3d76c7] flex`)}><span className={cls(frames,"downloadImage", `font-['Inter'] text-sm font-semibold text-white text-left flex flex-row justify-start shrink-0 relative`)}>Download image</span>
+        <div className={cls(frames,"frame2Button", `gap-2.5 flex-row w-fit items-start shrink-0 overflow-hidden relative border bg-[#4281db] opacity-100 px-[11px] py-[5px] rounded-[3px] border-[#3d76c7] flex`)}><span className={cls(frames,"downloadImage", `font-['Inter'] text-sm font-semibold text-white text-left flex flex-row justify-start shrink-0 relative`)}>Download image</span>
         </div>
       </div>
     </div>

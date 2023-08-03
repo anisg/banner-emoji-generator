@@ -4,6 +4,7 @@ import { cls, ElementProps } from '../lib';
 
 export type RenderBadgeLiveDesignProps = {
     frames?: {
+["badgeLiveDesign"]?: ElementProps<"div">;
 ["madeOn"]?: ElementProps<"span">;
 ["group869"]?: ElementProps<"svg">;
 ["liveDesign"]?: ElementProps<"span">}

@@ -4,6 +4,7 @@ import { cls, ElementProps } from '../lib';
 
 export type RenderMainPageProps = {
     frames?: {
+["mainPage"]?: ElementProps<"div">;
 ["frame1"]?: ElementProps<"div">;
 ["frame7"]?: ElementProps<"div">;
 ["bannerEmojiGenerator"]?: ElementProps<"span">;

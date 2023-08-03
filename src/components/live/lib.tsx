@@ -2,7 +2,7 @@ import React from 'react'
 
 export type ElementProps<T extends keyof JSX.IntrinsicElements = "div"> = JSX.IntrinsicElements[T];
 
-export function cls(framesTree: Record<string, any> | null, name: string, className: string): string {
+export function cls(framesTree: Record<string, any> | undefined, name: string, className: string): string {
   // later: use tailwind-merge
   if (framesTree?.[name]?.className) {
     return (

@@ -8,7 +8,7 @@ export function cls(framesTree: Record<string, any> | undefined, name: string, c
   // later: use tailwind-merge
   if (framesTree?.[name]?.className) {
     return (
-      twMerge(framesTree[name]?.className, className)
+      twMerge(className, framesTree[name]?.className)
     );
   }
   return className;

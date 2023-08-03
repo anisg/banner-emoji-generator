@@ -3,10 +3,10 @@ import React from 'react';
 import { cls, ElementProps } from '../lib';
 
 export type RenderBadgeLiveDesignProps = {
-    frames: {
-["madeOn"]: ElementProps<"span">;
-["group869"]: ElementProps<"svg">;
-["liveDesign"]: ElementProps<"span">}
+    frames?: {
+["madeOn"]?: ElementProps<"span">;
+["group869"]?: ElementProps<"svg">;
+["liveDesign"]?: ElementProps<"span">}
 ;
 }
 

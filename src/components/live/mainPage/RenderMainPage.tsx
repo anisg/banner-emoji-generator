@@ -3,25 +3,25 @@ import React from 'react';
 import { cls, ElementProps } from '../lib';
 
 export type RenderMainPageProps = {
-    frames: {
-["frame1"]: ElementProps<"div">;
-["frame7"]: ElementProps<"div">;
-["bannerEmojiGenerator"]: ElementProps<"span">;
-["theServiceAllowsYouToGenerateAnEmojiBannerImageIdealToPrettifyYourTasksInNotionChangeTheEmojiByClickingOnIt"]: ElementProps<"span">;
-["frame6"]: ElementProps<"div">;
-["frame4"]: ElementProps<"div">;
-["ellipse1"]: ElementProps<"svg">;
-["iconicon"]: ElementProps<"svg">;
-["frame5"]: ElementProps<"div">;
-["frame3"]: ElementProps<"div">;
-["notionCoverFormat"]: ElementProps<"span">;
-["vector1"]: ElementProps<"svg">;
-["frame2"]: ElementProps<"div">;
-["downloadImage"]: ElementProps<"span">;
-["badgeLiveDesign"]: ElementProps<"div">;
-["madeOn"]: ElementProps<"span">;
-["group869"]: ElementProps<"svg">;
-["liveDesign"]: ElementProps<"span">}
+    frames?: {
+["frame1"]?: ElementProps<"div">;
+["frame7"]?: ElementProps<"div">;
+["bannerEmojiGenerator"]?: ElementProps<"span">;
+["theServiceAllowsYouToGenerateAnEmojiBannerImageIdealToPrettifyYourTasksInNotionChangeTheEmojiByClickingOnIt"]?: ElementProps<"span">;
+["frame6"]?: ElementProps<"div">;
+["frame4"]?: ElementProps<"div">;
+["ellipse1"]?: ElementProps<"svg">;
+["iconicon"]?: ElementProps<"svg">;
+["frame5"]?: ElementProps<"div">;
+["frame3"]?: ElementProps<"div">;
+["notionCoverFormat"]?: ElementProps<"span">;
+["vector1"]?: ElementProps<"svg">;
+["frame2"]?: ElementProps<"div">;
+["downloadImage"]?: ElementProps<"span">;
+["badgeLiveDesign"]?: ElementProps<"div">;
+["madeOn"]?: ElementProps<"span">;
+["group869"]?: ElementProps<"svg">;
+["liveDesign"]?: ElementProps<"span">}
 ;
 }
 
